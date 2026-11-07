@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Trooff Design — Independent Web Design Studio</title>
+  <meta name="description" content="Trooff Design is an independent digital studio founded by Ansh, crafting bespoke, modern website redesigns built for high speed, clean typography, and elevated brand credibility.">
+  <meta name="author" content="Ansh — Trooff Design">
+  <meta name="theme-color" content="#0B0C0E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Trooff Design — Independent Web Design Studio">
+  <meta property="og:description" content="Bespoke, modern website redesigns built for high speed, clean typography, and elevated brand credibility. Founded and led by Ansh.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&h=630&q=80">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B0C0E'/%3E%3Cpath d='M19 21h26M32 21v24' stroke='%23EDEDED' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <!-- Fonts: Satoshi (display grotesque, Fontshare) + Inter (body, Google Fonts) -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@500,600,700,900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- =============================== HEADER =============================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+
+      <div class="header-brand">
+        <a class="wordmark" href="#top" data-scroll>Trooff <span>Design</span></a>
+
+        <span class="status-badge" title="Currently taking on redesign projects">
+          <span class="status-dot" aria-hidden="true"></span>
+          Available for Redesigns
+        </span>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#philosophy" data-scroll>Philosophy</a>
+        <a href="#work" data-scroll>Selected Work</a>
+        <a href="#services" data-scroll>Services</a>
+        <a class="btn btn-solid btn-nav" href="mailto:trooffcodes@proton.me?subject=Booking%20a%20meeting%20with%20Trooff%20Design">Book a Meeting</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-overlay" aria-label="Open menu">
+        <span class="icon-menu"><i data-lucide="menu"></i></span>
+        <span class="icon-close"><i data-lucide="x"></i></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile navigation overlay -->
+  <div class="menu-overlay" id="menu-overlay" aria-hidden="true">
+    <nav class="menu-nav" aria-label="Mobile">
+      <a href="#philosophy" data-scroll><span>Philosophy</span><em>01</em></a>
+      <a href="#work" data-scroll><span>Selected Work</span><em>02</em></a>
+      <a href="#services" data-scroll><span>Services</span><em>03</em></a>
+      <a href="#contact" data-scroll><span>Direct Contact</span><em>04</em></a>
+    </nav>
+    <a class="btn btn-solid menu-cta" href="mailto:trooffcodes@proton.me?subject=Booking%20a%20meeting%20with%20Trooff%20Design">Book a Meeting <i data-lucide="arrow-up-right"></i></a>
+    <p class="menu-foot">trooffcodes@proton.me</p>
+  </div>
+
+  <main id="main">
+
+    <!-- ================================ HERO ================================ -->
+    <section class="hero" id="top">
+      <div class="container hero-main">
+
+        <p class="hero-eyebrow" data-hero>
+          <span class="eyebrow-rule" aria-hidden="true"></span>
+          Independent Digital Studio — Founded by Ansh
+        </p>
+
+        <h1 class="hero-title">
+          <span class="line"><span class="line-inner">Turning slow, outdated</span></span>
+          <span class="line"><span class="line-inner">business websites into</span></span>
+          <span class="line"><span class="line-inner">modern, high-speed</span></span>
+          <span class="line"><span class="line-inner">digital flagships.</span></span>
+        </h1>
+
+        <div class="hero-lede" data-hero>
+          <p>Bespoke website redesigns on a clean vanilla architecture — responsive performance, considered typography, and custom design built around one business at a time.</p>
+        </div>
+
+        <div class="hero-actions" data-hero>
+          <a class="btn btn-solid" href="#work" data-scroll>Explore Selected Projects <i data-lucide="arrow-down"></i></a>
+          <a class="btn btn-ghost" href="mailto:trooffcodes@proton.me?subject=Website%20redesign%20enquiry">Email Ansh directly <i data-lucide="arrow-up-right"></i></a>
+        </div>
+
+      </div>
+
+      <div class="hero-meta" data-hero>
+        <div class="container hero-meta-grid">
+          <div><span>Focus</span><strong>Bespoke website redesigns</strong></div>
+          <div><span>Method</span><strong>Hand-coded, zero bloat</strong></div>
+          <div><span>Reach</span><strong>Modern businesses, globally</strong></div>
+          <div><span>Standard</span><strong>Modern · Fast · Responsive</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= PHILOSOPHY ============================= -->
+    <section class="section philosophy" id="philosophy">
+      <div class="container">
+
+        <header class="section-head" data-reveal>
+          <span class="section-index">01</span>
+          <h2 class="section-title">Philosophy</h2>
+          <span class="section-rule" aria-hidden="true"></span>
+        </header>
+
+        <div class="philosophy-body">
+          <p class="philosophy-statement" data-reveal>
+            Most business websites are assembled from borrowed parts — the same templates,
+            the same clutter, the same weight, shipped to every visitor and costing them
+            every second. Trooff Design takes the opposite path: <em>every rebuild starts
+            from zero</em>, with a bespoke structure, a hand-tuned codebase, and typography
+            that treats the brand seriously.
+          </p>
+          <p class="philosophy-sign" data-reveal>— Ansh, Founder</p>
+        </div>
+
+        <ul class="principles">
+          <li data-reveal>
+            <span class="principle-num">01</span>
+            <h3>Bespoke over templated</h3>
+            <p>Every layout is drawn for the project at hand — structure, rhythm, and pacing decided by the content, never by a theme.</p>
+          </li>
+          <li data-reveal>
+            <span class="principle-num">02</span>
+            <h3>Speed is a design decision</h3>
+            <p>Performance is settled in the architecture: lean vanilla code, no framework bloat, nothing shipped that the page does not need.</p>
+          </li>
+          <li data-reveal>
+            <span class="principle-num">03</span>
+            <h3>Restraint is confidence</h3>
+            <p>Whitespace, hierarchy, and one quiet highlight doing precise work. Nothing stays on the page that has not earned its place.</p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- =========================== SELECTED WORK =========================== -->
+    <section class="section work" id="work">
+      <div class="container">
+
+        <header class="section-head" data-reveal>
+          <span class="section-index">02</span>
+          <h2 class="section-title">Selected Work</h2>
+          <span class="section-rule" aria-hidden="true"></span>
+        </header>
+
+        <p class="section-intro" data-reveal>A deliberately small index — two engagements chosen for depth over volume, each one a full rebuild rather than a reskin.</p>
+
+<!-- Project 01 -->
+        <article class="project" id="project-01">
+
+          <figure class="project-media" data-reveal>
+            <div class="media-frame">
+              <img
+                src="pristine1920x1200.webp"
+                sizes="(min-width: 1024px) 58vw, 92vw"
+                width="1920" height="1200"
+                alt="Editorial website redesign for Pristine Landscape Studio, showcasing luxury outdoor living spaces in Beverly Hills."
+                loading="lazy" decoding="async"
+                data-parallax
+                data-asset-name="pristine1920x1200.webp">
+            </div>
+          </figure>
+
+          <div class="project-info">
+            <span class="project-number" data-drift aria-hidden="true">01</span>
+            <h3 class="project-title" data-reveal>Pristine Landscape Studio</h3>
+            <p class="project-desc" data-reveal>A bespoke digital presence for a Beverly Hills architectural practice. The rebuild translates physical craftsmanship—sculpted limestone, native flora, and nocturnal lighting—into a quiet, high-contrast editorial experience optimized for high-resolution imagery and sub-second loading.</p>
+
+            <dl class="project-meta" data-reveal>
+              <div><dt>Scope</dt><dd>Luxury UI/UX · Editorial Layout · Performance Rebuild</dd></div>
+              <div><dt>Technology</dt><dd>Vanilla Stack · Smooth Motion · Optimized WebP Pipeline</dd></div>
+              <div><dt>Engagement</dt><dd>Complete brand positioning &amp; web architecture</dd></div>
+            </dl>
+
+            <!-- Live URL slot: replace "#" with project link -->
+            <a class="btn btn-outline project-link" href="#" data-live-link data-reveal>View Live Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+
+        </article>
+
+        <!-- Project 02 -->
+        <article class="project project-flip" id="project-02">
+
+          <figure class="project-media" data-reveal>
+            <div class="media-frame">
+              <img
+                src="texas1920x1200.webp"
+                sizes="(min-width: 1024px) 58vw, 92vw"
+                width="1920" height="1200"
+                alt="Responsive website layout for Texas Landscape Services, highlighting commercial grounds and private estate management in DFW."
+                loading="lazy" decoding="async"
+                data-parallax
+                data-asset-name="texas1920x1200.webp">
+            </div>
+          </figure>
+
+          <div class="project-info">
+            <span class="project-number" data-drift aria-hidden="true">02</span>
+            <h3 class="project-title" data-reveal>Texas Landscape Services</h3>
+            <p class="project-desc" data-reveal>A dual-audience structural overhaul for a North Texas grounds firm. Reorganized high-volume commercial contracts and private estate management into distinct, high-conversion visual pathways—engineered to convert fast on mobile devices and withstand strict corporate bid reviews.</p>
+
+            <dl class="project-meta" data-reveal>
+              <div><dt>Scope</dt><dd>Information Architecture · Dual-Funnel UX · Mobile Engine</dd></div>
+              <div><dt>Technology</dt><dd>Vanilla Stack · Responsive Layout · Lightweight Assets</dd></div>
+              <div><dt>Engagement</dt><dd>Complete presence overhaul &amp; funnel design</dd></div>
+            </dl>
+
+            <!-- Live URL slot: replace "#" with project link -->
+            <a class="btn btn-outline project-link" href="#" data-live-link data-reveal>View Live Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================== SERVICES ============================== -->
+    <section class="section services" id="services">
+      <div class="container">
+
+        <header class="section-head" data-reveal>
+          <span class="section-index">03</span>
+          <h2 class="section-title">Services</h2>
+          <span class="section-rule" aria-hidden="true"></span>
+        </header>
+
+        <p class="section-intro" data-reveal>Three capabilities, one standard — everything is built by hand, engineered to load fast, and made to convert.</p>
+
+        <ol class="capability-list">
+          <li class="capability" data-reveal>
+            <span class="capability-num">01</span>
+            <div class="capability-body">
+              <h3>Complete Website Redesigns</h3>
+              <p>Cluttered, outdated templates replaced with bespoke, modern layouts. Structure, hierarchy, and flow are rebuilt around the business — so the site looks like it belongs to one company only.</p>
+            </div>
+            <span class="capability-icon" aria-hidden="true"><i data-lucide="layout-template"></i></span>
+          </li>
+          <li class="capability" data-reveal>
+            <span class="capability-num">02</span>
+            <div class="capability-body">
+              <h3>Engineered for Speed</h3>
+              <p>Zero-bloat, lightweight codebases that load instantly and eliminate lag. Hand-written HTML, CSS, and JavaScript — no framework weight, no plugin pile-ups, nothing the visitor waits for.</p>
+            </div>
+            <span class="capability-icon" aria-hidden="true"><i data-lucide="gauge"></i></span>
+          </li>
+          <li class="capability" data-reveal>
+            <span class="capability-num">03</span>
+            <div class="capability-body">
+              <h3>Responsive &amp; Conversion-Driven</h3>
+              <p>Razor-sharp on mobile phones, tablets, and desktop displays. Every breakpoint is designed deliberately, guiding visitors calmly toward the action that matters.</p>
+            </div>
+            <span class="capability-icon" aria-hidden="true"><i data-lucide="monitor-smartphone"></i></span>
+          </li>
+        </ol>
+
+      </div>
+    </section>
+
+    <!-- ========================== DIRECT CONTACT ========================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+
+        <header class="section-head" data-reveal>
+          <span class="section-index">04</span>
+          <h2 class="section-title">Direct Contact</h2>
+          <span class="section-rule" aria-hidden="true"></span>
+        </header>
+
+        <p class="section-intro" data-reveal>No forms, no funnels — every engagement starts with a direct email consultation to book a meeting with Ansh.</p>
+
+        <div class="terminal" data-reveal>
+          <div class="terminal-head">
+            <span>Direct line — book a meeting</span>
+            <span class="terminal-status"><span class="status-dot" aria-hidden="true"></span>Studio open</span>
+          </div>
+
+          <a class="terminal-email" href="mailto:trooffcodes@proton.me?subject=Booking%20a%20meeting%20with%20Trooff%20Design">trooff<wbr>codes@proton<wbr>.me</a>
+
+          <div class="terminal-actions">
+            <button class="btn btn-ghost" id="copy-email" type="button">Copy Email <i data-lucide="copy"></i></button>
+            <a class="btn btn-solid" href="mailto:trooffcodes@proton.me?subject=Booking%20a%20meeting%20with%20Trooff%20Design">Send Email to Book <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <ul class="contact-notes">
+          <li data-reveal>
+            <i data-lucide="globe" aria-hidden="true"></i>
+            <span>Independent studio working globally with businesses seeking an elevated web presence.</span>
+          </li>
+          <li data-reveal>
+            <i data-lucide="user" aria-hidden="true"></i>
+            <span>Founder-led from first email to launch — you speak directly with Ansh, always.</span>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================== FOOTER =============================== -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="footer-wordmark" href="#top" data-scroll>Trooff Design</a>
+          <p>Independent digital studio crafting bespoke, modern website redesigns — founded and led by Ansh.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#philosophy" data-scroll>Philosophy</a>
+          <a href="#work" data-scroll>Selected Work</a>
+          <a href="#services" data-scroll>Services</a>
+          <a href="mailto:trooffcodes@proton.me?subject=Booking%20a%20meeting%20with%20Trooff%20Design">Book a Meeting</a>
+        </nav>
+
+        <div class="footer-colophon">
+          <p>Built by hand — vanilla HTML, CSS &amp; JavaScript. No templates.</p>
+          <a class="footer-mail" href="mailto:trooffcodes@proton.me">trooffcodes@proton.me</a>
+        </div>
+      </div>
+
+      <div class="footer-base">
+        <span>© <span data-year>2026</span> Trooff Design. All rights reserved.</span>
+        <span>Designed &amp; built by Ansh.</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast notification (clipboard / live-link feedback) -->
+  <div class="toast" id="toast" role="status" aria-live="polite"><span id="toast-text"></span></div>
+
+  <!-- ============================ CDN LIBRARIES ============================ -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js" defer></script>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
